@@ -1,0 +1,26 @@
+* Attachment Cleaner Module
+
+ When an attachment is deleted in Tryton the stored file in it Binary
+ Field is not deleted.
+
+ This happens with all Binary Field that do not store their data in
+ database.
+
+ This module aims to store data of files that should be deleted after
+ an Attachment is deleted. A bigger goal will be to do it for all
+ Binary Fields. This focuses on Attachments.
+
+
+** Tasks
+*** DONE Keep a record of deleted Attachments
+*** TODO Show record deleted Attachments
+*** TODO Add functionality to Eliminate from storage (initially focus on S3)
+*** TODO Add trytond-cron 
+*** TODO (Optional) Allow recuperate data not deleted yet.
+
+
+** Ref
+
+- S3 filestore: When storing data in S3 we assume the following
+  project is being used: https://github.com/NaN-tic/tryton-filestore-s3  
+  

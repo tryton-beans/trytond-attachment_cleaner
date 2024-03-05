@@ -1,0 +1,19 @@
+<tryton>
+  <data>
+    <record model="ir.ui.view" id="attachment_purgatory_view_form">
+      <field name="name">attachment_purgatory_form</field>
+      <field name="model">attachment.purgatory</field>
+      <field name="type">form</field>
+    </record>
+    <record model="ir.ui.view" id="attachment_purgatory_view_tree">
+      <field name="name">attachment_purgatory_list</field>
+      <field name="model">attachment.purgatory</field>
+      <field name="type">tree</field>
+    </record>
+    <record model="ir.action.act_window" id="act_attachment_purgatory">
+      <field name="name">Attachment Purgatory</field>
+      <field name="res_model">attachment.purgatory</field>
+    </record>
+    <menuitem parent="ir.menu_models" action="act_attachment_purgatory" sequence="110" id="menu_attachment_purgatory"/>
+  </data>
+</tryton>

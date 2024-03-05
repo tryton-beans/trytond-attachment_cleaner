@@ -1,12 +1,12 @@
 * Attachment Cleaner Module
 
- When an attachment is deleted in Tryton the stored file in it Binary
+ When an attachment is deleted in Tryton the stored file in its Binary
  Field is not deleted.
 
  This happens with all Binary Field that do not store their data in
  database.
 
- This module aims to store data of files that should be deleted after
+ This module aims to record data of files that should be deleted after
  an Attachment is deleted. A bigger goal will be to do it for all
  Binary Fields. This focuses on Attachments.
 

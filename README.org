@@ -13,11 +13,10 @@
 
 ** Tasks
 *** DONE Keep a record of deleted Attachments
-*** TODO Show record deleted Attachments
+*** DONE Show record deleted Attachments (Administration/Model/Attachment Purgatory)
 *** TODO Add functionality to Eliminate from storage (initially focus on S3)
 *** TODO Add trytond-cron 
 *** TODO (Optional) Allow recuperate data not deleted yet.
-
 
 ** Ref
 

@@ -1,0 +1,10 @@
+<form>
+  <label name="binary_prefix"/>
+  <field name="binary_prefix"/>
+  <label name="file_id"/>
+  <field name="file_id"/>
+  <label name="name"/>
+  <field name="name"/>
+  <label name="description"/>
+  <field name="description"/>
+</form>

@@ -1,0 +1,6 @@
+<tree>
+  <field name="binary_prefix"/>
+  <field name="file_id"/>
+  <field name="name"/>
+  <field name="description"/>
+</tree>
